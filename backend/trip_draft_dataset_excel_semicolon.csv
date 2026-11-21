@@ -1,0 +1,201 @@
+﻿id;city;area;category;name;price_egp;price_range;interests;diet_tags;open_days;duration_min;safety_notes;confidence;source_tag;last_verified;is_fictional,
+1;Cairo;Maadi;stay;Staying with family or friends;0;low;free;;Every day;0;Keep valuables with you and check the door lock.;high;team estimate;2026-10-21;true,
+"2;Cairo;Downtown;stay;Zahraa Budget Hotel;450;medium;""history;evening"";;Every day;0;Confirm the price per night before you pay.;medium;team estimate;2026-10-12;true",
+"3;Cairo;Islamic Cairo;stay;Al-Sayyida Family Guesthouse;345;low;""history;culture"";;Every day;0;Keep valuables with you and check the door lock.;medium;team estimate;2026-10-23;true",
+"4;Cairo;Giza;stay;Pyramid Road Backpackers Hostel;265;low;""history;social"";;Every day;0;Confirm the price per night before you pay.;medium;team estimate", checked by a second member;2026-10-20;true
+5;Cairo;Maadi;stay;Shared Room at Maadi Student House;240;low;relax;;Every day;0;Keep valuables with you and check the door lock.;high;team estimate;2026-10-07;true,
+"6;Cairo;Zamalek;stay;Garden View Budget Hotel;635;high;""relax;culture"";;Every day;0;Confirm the price per night before you pay.;high;team estimate;2026-10-05;true",
+7;Cairo;Heliopolis;stay;Heliopolis Rooms Inn;450;medium;relax;;Every day;0;Keep valuables with you and check the door lock.;medium;team estimate;2026-10-15;true,
+"8;Cairo;Old Cairo;stay;Old Cairo Courtyard Guesthouse;465;medium;""history;culture"";;Every day;0;Confirm the price per night before you pay.;high;team estimate;2026-10-16;true",
+"9;Cairo;Downtown;meal;Abu Hamza Koshary;50;low;food;""vegan;vegetarian;fasting-friendly"";Every day;40;Many places take cash only.;low;team estimate;2026-10-07;true",
+"10;Cairo;Downtown;meal;Fatma Ful and Ta'ameya Counter;30;low;food;""vegan;vegetarian;fasting-friendly"";Every day;25;Check the price before ordering extra items.;high;team estimate;2026-10-14;true",
+"11;Cairo;Islamic Cairo;meal;Al-Hussein Grill House;210;high;""food;history"";;Every day;75;Many places take cash only.;high;team estimate;2026-10-23;true",
+12;Cairo;Zamalek;meal;Zamalek Fish Corner;205;high;food;;Every day;75;Check the price before ordering extra items.;high;team estimate, checked by a second member;2026-10-16;true
+13;Cairo;Maadi;meal;Sitt Nadia Home Kitchen;125;medium;food;vegetarian;Sat-Thu;60;Many places take cash only.;high;team estimate;2026-10-23;true,
+14;Cairo;Nasr City;meal;Hawawshi Station;60;medium;food;seafood-free;Every day;30;Check the price before ordering extra items.;high;team estimate;2026-10-21;true,
+"15;Cairo;Islamic Cairo;meal;Bab El-Khalq Sweets Cafe;60;medium;""food;evening"";vegetarian;Every day;30;Many places take cash only.;medium;team estimate;2026-10-20;true",
+"16;Cairo;Zamalek;meal;Nile Side Tea Garden;70;medium;""relax;evening"";vegetarian;Every day;60;Check the price before ordering extra items.;low;team estimate;2026-10-18;true",
+"17;Cairo;Heliopolis;meal;Mahshi House;125;medium;food;""vegetarian;fasting-friendly"";Every day;60;Many places take cash only.;low;team estimate;2026-10-21;true",
+18;Cairo;Giza;meal;Giza Street Sandwich Cart;25;low;food;;Every day;15;Check the price before ordering extra items.;high;team estimate, checked by a second member;2026-10-06;true
+19;Cairo;Old Cairo;meal;Fiteer Meshaltet Bakery;100;medium;food;vegetarian;Every day;40;Many places take cash only.;medium;team estimate;2026-10-18;true,
+"20;Cairo;Downtown;meal;Late Night Shawarma Corner;85;medium;""food;evening"";;Every day;25;Check the price before ordering extra items.;high;team estimate", checked by a second member;2026-10-08;true
+21;Cairo;Citywide;transport;Cairo Metro Single Ride;11;low;transport;;Every day;30;Agree the fare before you get in.;medium;team estimate, checked by a second member;2026-10-22;true
+22;Cairo;Citywide;transport;Cairo Metro Pack of 4 Rides;34;low;transport;;Every day;120;Last departures can be early in the evening.;high;team estimate;2026-10-14;true,
+23;Cairo;Citywide;transport;Microbus Ride Within the City;18;low;transport;;Every day;30;Agree the fare before you get in.;medium;team estimate;2026-10-20;true,
+24;Cairo;Downtown;transport;Shared Taxi Downtown to Giza;40;low;transport;;Every day;45;Last departures can be early in the evening.;high;team estimate;2026-10-13;true,
+25;Cairo;Downtown;transport;Ride-hailing Downtown to Heliopolis;90;medium;transport;;Every day;40;Agree the fare before you get in.;high;team estimate;2026-10-19;true,
+26;Cairo;Heliopolis;transport;Airport Shuttle Bus;100;medium;transport;;Every day;60;Last departures can be early in the evening.;low;team estimate;2026-10-11;true,
+"27;Cairo;Zamalek;transport;Nile Ferry Crossing;14;low;""transport;relax"";;Every day;20;Agree the fare before you get in.;medium;team estimate;2026-10-20;true",
+"28;Cairo;Islamic Cairo;free attraction;Khan el-Khalili Bazaar Walk;0;low;""history;culture;free"";;Every day;120;""Crowded in the evening; keep your bag closed."";medium;team estimate;2026-10-06;false",
+"29;Cairo;Islamic Cairo;free attraction;Al-Muizz Street Walk;0;low;""history;free"";;Every day;90;""Uneven ground in places; wear flat shoes."";medium;team estimate;2026-10-08;false",
+"30;Cairo;Downtown;free attraction;Nile Corniche Evening Walk;0;low;""relax;evening;free"";;Every day;60;""Crowded in the evening; keep your bag closed."";high;team estimate", checked by a second member;2026-10-21;true
+"31;Cairo;Old Cairo;free attraction;Hanging Church Visit;0;low;""history;culture;free"";;Every day;45;""Uneven ground in places; wear flat shoes."";high;team estimate", checked by a second member;2026-10-10;false
+"32;Cairo;Islamic Cairo;free attraction;Al-Azhar Mosque Visit;0;low;""history;culture;free"";;Every day;40;""Crowded in the evening; keep your bag closed."";low;team estimate", checked by a second member;2026-10-20;false
+"33;Cairo;Downtown;free attraction;Downtown Self-guided Walk;0;low;""culture;free"";;Every day;90;""Uneven ground in places; wear flat shoes."";low;team estimate;2026-10-20;true",
+"34;Cairo;Downtown;free attraction;Azbakeya Book Market Browse;0;low;""culture;free"";;Sat-Thu;60;""Crowded in the evening; keep your bag closed."";high;team estimate;2026-10-18;true",
+35;Cairo;Giza;paid attraction;Pyramids of Giza Entry;270;high;history;;Every day;180;Agree the price first if anyone offers a guide or a ride.;high;team estimate;2026-10-05;false,
+"36;Cairo;Downtown;paid attraction;Egyptian Museum Entry;220;medium;""history;culture"";;Every day;150;Keep your ticket until you leave.;high;team estimate", checked by a second member;2026-10-07;false
+37;Cairo;Islamic Cairo;paid attraction;Citadel of Saladin Entry;245;medium;history;;Every day;120;Agree the price first if anyone offers a guide or a ride.;medium;team estimate;2026-10-06;false,
+"38;Cairo;Old Cairo;paid attraction;Coptic Museum Entry;100;medium;""history;culture"";;Sat-Thu;75;Keep your ticket until you leave.;low;team estimate;2026-10-16;false",
+39;Cairo;Islamic Cairo;paid attraction;Mosque of Ibn Tulun Entry;50;low;history;;Every day;45;Agree the price first if anyone offers a guide or a ride.;high;team estimate;2026-10-23;false,
+"40;Cairo;Islamic Cairo;paid attraction;Al-Azhar Park Entry;35;low;""nature;relax"";;Every day;120;Keep your ticket until you leave.;medium;team estimate", checked by a second member;2026-10-22;false
+"41;Cairo;Zamalek;paid attraction;Cairo Tower Viewpoint;115;medium;""culture;evening"";;Every day;60;Agree the price first if anyone offers a guide or a ride.;high;team estimate;2026-10-21;false",
+"42;Cairo;Zamalek;paid attraction;Felucca Ride on the Nile;145;medium;""relax;evening"";;Every day;60;Keep your ticket until you leave.;high;team estimate;2026-10-09;true",
+"43;Cairo;Downtown;paid attraction;Museum of Islamic Art Entry;140;medium;""history;culture"";;Sat-Thu;90;Agree the price first if anyone offers a guide or a ride.;medium;team estimate;2026-10-21;false",
+44;Alexandria;Smouha;stay;Staying with family or friends;0;low;free;;Every day;0;Ask about check-in time before arriving late.;high;team estimate, checked by a second member;2026-10-21;true
+"45;Alexandria;Raml Station;stay;Raml Station Budget Hotel;455;medium;""evening;sea"";;Every day;0;Quiet hours start around 11 pm.;high;team estimate;2026-10-08;true",
+"46;Alexandria;Anfoushi;stay;Bayt El-Bahr Family Guesthouse;310;low;""sea;history"";;Every day;0;Ask about check-in time before arriving late.;medium;team estimate;2026-10-16;true",
+"47;Alexandria;Corniche;stay;Corniche Backpackers Hostel;270;low;""sea;social"";;Every day;0;Quiet hours start around 11 pm.;high;team estimate", checked by a second member;2026-10-05;true
+"48;Alexandria;Stanley;stay;Shared Room at Stanley Student House;150;low;""relax;sea"";;Every day;0;Ask about check-in time before arriving late.;high;team estimate;2026-10-14;true",
+"49;Alexandria;Montaza;stay;Montaza Garden Inn;640;high;""nature;relax"";;Every day;0;Quiet hours start around 11 pm.;high;team estimate;2026-10-19;true",
+"50;Alexandria;Mansheya;stay;Mansheya Old Town Rooms;370;medium;""history;culture"";;Every day;0;Ask about check-in time before arriving late.;medium;team estimate;2026-10-23;true",
+"51;Alexandria;Gleem;stay;Gleem Beach Camp and Guesthouse;380;medium;""sea;relax"";;Every day;0;Quiet hours start around 11 pm.;high;team estimate;2026-10-19;true",
+"52;Alexandria;Anfoushi;meal;Al-Bahari Fried Fish Stall;135;medium;""food;sea"";;Every day;50;""Busy at lunch time; expect a short wait."";high;team estimate", checked by a second member;2026-10-22;true
+"53;Alexandria;Mansheya;meal;Hagg Mahmoud Fuul Cart;32;low;food;""vegan;vegetarian;fasting-friendly"";Every day;20;Ask about ingredients if you have an allergy.;high;team estimate;2026-10-10;true",
+"54;Alexandria;Anfoushi;meal;Sayadia Seafood Table;185;high;""food;sea"";;Every day;80;""Busy at lunch time; expect a short wait."";medium;team estimate", checked by a second member;2026-10-06;true
+"55;Alexandria;Raml Station;meal;Raml Koshary House;50;low;food;""vegan;vegetarian;fasting-friendly"";Every day;35;Ask about ingredients if you have an allergy.;medium;team estimate;2026-10-20;true",
+"56;Alexandria;Stanley;meal;Stanley Bridge Cafe;100;medium;""relax;evening"";vegetarian;Every day;60;""Busy at lunch time; expect a short wait."";medium;team estimate;2026-10-21;true",
+57;Alexandria;Mansheya;meal;Alex Liver and Sausage Counter;45;low;food;seafood-free;Every day;25;Ask about ingredients if you have an allergy.;medium;team estimate;2026-10-09;true,
+"58;Alexandria;Corniche;meal;Corniche Corn and Tea Kiosk;20;low;""relax;evening"";""vegan;vegetarian;fasting-friendly"";Every day;20;""Busy at lunch time; expect a short wait."";medium;team estimate;2026-10-13;true",
+"59;Alexandria;Smouha;meal;Mama Soheir Home Cooking;120;medium;food;""vegetarian;fasting-friendly"";Sat-Thu;60;Ask about ingredients if you have an allergy.;high;team estimate", checked by a second member;2026-10-17;true
+"60;Alexandria;Raml Station;meal;Alexandrian Sweets Bakery;40;low;food;vegetarian;Every day;20;""Busy at lunch time; expect a short wait."";high;team estimate;2026-10-19;true",
+"61;Alexandria;Montaza;meal;Sea View Grill Cafe;195;high;""food;evening"";;Every day;70;Ask about ingredients if you have an allergy.;low;team estimate", checked by a second member;2026-10-14;true
+"62;Alexandria;Gleem;meal;Gleem Rooftop Falafel Spot;45;low;food;""vegan;vegetarian;fasting-friendly"";Every day;25;""Busy at lunch time; expect a short wait."";high;team estimate;2026-10-19;true",
+"63;Alexandria;Raml Station;meal;Late Night Hawawshi Window;45;low;""food;evening"";seafood-free;Every day;20;Ask about ingredients if you have an allergy.;high;team estimate;2026-10-13;true",
+"64;Alexandria;Citywide;transport;Alexandria Tram Single Ride;5;low;""transport;sea"";;Every day;40;Keep small notes for change.;medium;team estimate;2026-10-07;true",
+"65;Alexandria;Raml Station;transport;Microbus Raml to Montaza;15;low;transport;;Every day;40;""Vehicles fill up at peak hours; leave extra time."";medium;team estimate;2026-10-10;true",
+66;Alexandria;Raml Station;transport;Taxi Raml Station to Qaitbay;50;medium;transport;;Every day;25;Keep small notes for change.;high;team estimate;2026-10-22;true,
+"67;Alexandria;Corniche;transport;Ride-hailing Corniche to Smouha;110;medium;transport;;Every day;30;""Vehicles fill up at peak hours; leave extra time."";high;team estimate;2026-10-08;true",
+68;Alexandria;Raml Station;transport;Train Cairo to Alexandria (2nd class);160;high;transport;;Every day;180;Keep small notes for change.;high;team estimate;2026-10-11;true,
+"69;Alexandria;Gleem;transport;Shared Van to Gleem;14;low;transport;;Every day;20;""Vehicles fill up at peak hours; leave extra time."";high;team estimate;2026-10-09;true",
+"70;Alexandria;Corniche;transport;Bike Rental on the Corniche (1 hour);40;low;""relax;sea"";;Every day;60;Keep small notes for change.;medium;team estimate;2026-10-18;true",
+"71;Alexandria;Corniche;free attraction;Corniche Sunset Walk;0;low;""sea;relax;evening;free"";;Every day;75;Agree the price first if anyone offers a guide or a ride.;high;team estimate;2026-10-16;true",
+"72;Alexandria;Stanley;free attraction;Stanley Bridge Photo Stop;0;low;""culture;free"";;Every day;30;""Little shade; carry water."";medium;team estimate;2026-10-08;false",
+"73;Alexandria;Mansheya;free attraction;Shallalat Gardens Stroll;0;low;""nature;free"";;Every day;60;Agree the price first if anyone offers a guide or a ride.;high;team estimate;2026-10-07;false",
+"74;Alexandria;Anfoushi;free attraction;Anfoushi Fishing Harbour Watch;0;low;""sea;culture;free"";;Every day;60;""Little shade; carry water."";high;team estimate;2026-10-13;true",
+"75;Alexandria;Mansheya;free attraction;Mansheya Old Streets Walk;0;low;""history;culture;free"";;Every day;90;Agree the price first if anyone offers a guide or a ride.;high;team estimate;2026-10-13;true",
+"76;Alexandria;Gleem;free attraction;Public Beach at Gleem;0;low;""sea;relax;free"";;Every day;150;""Little shade; carry water."";high;team estimate;2026-10-08;true",
+"77;Alexandria;Raml Station;free attraction;Raml Station Market Browse;0;low;""culture;free"";;Every day;60;Agree the price first if anyone offers a guide or a ride.;high;team estimate;2026-10-08;true",
+"78;Alexandria;Anfoushi;paid attraction;Qaitbay Citadel Entry;155;medium;""history;sea"";;Every day;90;""Uneven ground and stairs; wear flat shoes."";high;team estimate;2026-10-06;false",
+"79;Alexandria;Corniche;paid attraction;Bibliotheca Alexandrina Entry;90;medium;""culture;history"";;Sat-Thu;120;""Busiest at midday; go early or late."";high;team estimate;2026-10-19;false",
+"80;Alexandria;Montaza;paid attraction;Montaza Gardens Entry;45;low;""nature;relax"";;Every day;150;""Uneven ground and stairs; wear flat shoes."";low;team estimate", checked by a second member;2026-10-16;false
+"81;Alexandria;Raml Station;paid attraction;Roman Amphitheatre Entry;120;medium;history;;Every day;60;""Busiest at midday; go early or late."";medium;team estimate", checked by a second member;2026-10-17;false
+"82;Alexandria;Karmouz;paid attraction;Pompey's Pillar Entry;80;medium;history;;Every day;45;""Uneven ground and stairs; wear flat shoes."";low;team estimate;2026-10-18;false",
+"83;Alexandria;Karmouz;paid attraction;Catacombs of Kom el-Shoqafa Entry;150;medium;history;;Every day;60;""Busiest at midday; go early or late."";high;team estimate;2026-10-14;false",
+"84;Alexandria;Raml Station;paid attraction;Alexandria National Museum Entry;125;medium;""history;culture"";;Sat-Thu;75;""Uneven ground and stairs; wear flat shoes."";low;team estimate", checked by a second member;2026-10-08;false
+"85;Alexandria;Anfoushi;paid attraction;Boat Trip in the Eastern Harbour;100;medium;""sea;relax"";;Every day;60;""Busiest at midday; go early or late."";medium;team estimate;2026-10-05;true",
+"86;Alexandria;Anfoushi;paid attraction;Alexandria Aquarium Visit;80;medium;""sea;culture"";;Every day;60;""Uneven ground and stairs; wear flat shoes."";low;team estimate;2026-10-06;true",
+87;Luxor;East Bank;stay;Staying with family or friends;0;low;free;;Every day;0;Confirm the price per night before you pay.;medium;team estimate;2026-10-08;true,
+88;Luxor;Karnak area;stay;Karnak View Budget Hotel;315;low;history;;Every day;0;Keep valuables with you and check the door lock.;high;team estimate;2026-10-14;true,
+"89;Luxor;West Bank;stay;Dar El-Ward Family Guesthouse;250;low;""history;culture"";;Every day;0;Confirm the price per night before you pay.;high;team estimate;2026-10-18;true",
+"90;Luxor;East Bank;stay;Nile Palm Hostel;220;low;""social;history"";;Every day;0;Keep valuables with you and check the door lock.;high;team estimate", checked by a second member;2026-10-12;true
+91;Luxor;East Bank;stay;Shared Room at Luxor Student House;160;low;relax;;Every day;0;Confirm the price per night before you pay.;high;team estimate;2026-10-22;true,
+"92;Luxor;West Bank;stay;Farmland Camp and Guesthouse;325;low;""nature;relax"";;Every day;0;Keep valuables with you and check the door lock.;high;team estimate", checked by a second member;2026-10-09;true
+"93;Luxor;Luxor Corniche;stay;Corniche Garden Inn;620;high;""relax;evening"";;Every day;0;Confirm the price per night before you pay.;high;team estimate;2026-10-20;true",
+"94;Luxor;Banana Island;stay;Banana Island Rooms;480;medium;""nature;relax"";;Every day;0;Keep valuables with you and check the door lock.;high;team estimate;2026-10-23;true",
+"95;Luxor;East Bank;meal;Abu Khaled Ta'ameya Window;17;low;food;""vegan;vegetarian;fasting-friendly"";Every day;15;Check the price before ordering extra items.;medium;team estimate;2026-10-21;true",
+"96;Luxor;East Bank;meal;Souq Koshary Pot;40;low;food;""vegan;vegetarian;fasting-friendly"";Every day;30;Many places take cash only.;high;team estimate;2026-10-15;true",
+97;Luxor;West Bank;meal;West Bank Pigeon and Rice House;110;medium;food;seafood-free;Every day;60;Check the price before ordering extra items.;medium;team estimate;2026-10-12;true,
+"98;Luxor;Luxor Corniche;meal;Corniche Grilled Fish Table;225;high;""food;evening"";;Every day;70;Many places take cash only.;high;team estimate;2026-10-21;true",
+"99;Luxor;West Bank;meal;Umm Salma Village Kitchen;80;medium;""food;nature"";""vegetarian;fasting-friendly"";Every day;60;Check the price before ordering extra items.;low;team estimate", checked by a second member;2026-10-17;true
+100;Luxor;Karnak area;meal;Karnak Tea and Sweets Stand;31;low;relax;vegetarian;Every day;20;Many places take cash only.;low;team estimate;2026-10-13;true,
+"101;Luxor;East Bank;meal;Sugarcane Juice Cart;15;low;food;""vegan;vegetarian;fasting-friendly"";Every day;10;Check the price before ordering extra items.;medium;team estimate;2026-10-19;true",
+102;Luxor;East Bank;meal;Luxor Fiteer and Honey House;90;medium;food;vegetarian;Every day;40;Many places take cash only.;high;team estimate;2026-10-23;true,
+"103;Luxor;Luxor Corniche;meal;Rooftop Dinner Cafe;165;high;""evening;relax"";;Every day;80;Check the price before ordering extra items.;high;team estimate;2026-10-09;true",
+"104;Luxor;Sheikh Ali;meal;Sheikh Ali Bean Stew Counter;40;low;food;""vegan;vegetarian;fasting-friendly"";Every day;20;Many places take cash only.;medium;team estimate", checked by a second member;2026-10-21;true
+"105;Luxor;Banana Island;meal;Banana Island Lunch Plate;100;medium;""food;nature"";vegetarian;Every day;50;Check the price before ordering extra items.;medium;team estimate;2026-10-07;true",
+"106;Luxor;East Bank;meal;Late Night Kofta Window;70;medium;""food;evening"";seafood-free;Every day;25;Many places take cash only.;high;team estimate", checked by a second member;2026-10-09;true
+107;Luxor;East Bank;transport;Local Microbus Ride;6;low;transport;;Every day;20;Last departures can be early in the evening.;low;team estimate;2026-10-11;true,
+"108;Luxor;East Bank;transport;Calash Horse Carriage Ride;145;medium;""culture;relax"";;Every day;40;Agree the fare before you get in.;medium;team estimate;2026-10-23;true",
+109;Luxor;East Bank;transport;Ferry Across the Nile;5;low;transport;;Every day;15;Last departures can be early in the evening.;low;team estimate;2026-10-21;true,
+"110;Luxor;East Bank;transport;Taxi East Bank to Valley of the Kings;250;high;""transport;history"";;Every day;45;Agree the fare before you get in.;medium;team estimate", checked by a second member;2026-10-08;true
+"111;Luxor;West Bank;transport;Bike Rental (full day);55;medium;""nature;transport"";;Every day;480;Last departures can be early in the evening.;high;team estimate;2026-10-22;true",
+112;Luxor;East Bank;transport;Train Luxor to Aswan (2nd class);120;medium;transport;;Every day;180;Agree the fare before you get in.;high;team estimate, checked by a second member;2026-10-11;true
+113;Luxor;East Bank;transport;Shared Taxi to Karnak;12;low;transport;;Every day;15;Last departures can be early in the evening.;medium;team estimate;2026-10-14;true,
+"114;Luxor;Luxor Corniche;free attraction;Luxor Corniche Walk;0;low;""relax;evening;free"";;Every day;60;""Uneven ground in places; wear flat shoes."";high;team estimate", checked by a second member;2026-10-11;true
+"115;Luxor;West Bank;free attraction;Colossi of Memnon Photo Stop;0;low;""history;free"";;Every day;30;""Crowded in the evening; keep your bag closed."";low;team estimate;2026-10-20;false",
+"116;Luxor;East Bank;free attraction;Souq Evening Walk;0;low;""culture;evening;free"";;Every day;75;""Uneven ground in places; wear flat shoes."";low;team estimate;2026-10-22;true",
+"117;Luxor;East Bank;free attraction;Sunset at the Nile Bank;0;low;""relax;evening;free"";;Every day;45;""Crowded in the evening; keep your bag closed."";high;team estimate;2026-10-10;true",
+"118;Luxor;West Bank;free attraction;West Bank Village Walk;0;low;""nature;culture;free"";;Every day;90;""Uneven ground in places; wear flat shoes."";high;team estimate;2026-10-05;true",
+"119;Luxor;Karnak area;free attraction;Avenue of Sphinxes Outer Walk;0;low;""history;free"";;Every day;45;""Crowded in the evening; keep your bag closed."";medium;team estimate;2026-10-05;false",
+"120;Luxor;West Bank;free attraction;Farmland Cycling Path;0;low;""nature;free"";;Every day;90;""Uneven ground in places; wear flat shoes."";medium;team estimate;2026-10-14;true",
+121;Luxor;Karnak area;paid attraction;Karnak Temple Entry;230;medium;history;;Every day;150;Keep your ticket until you leave.;high;team estimate;2026-10-12;false,
+"122;Luxor;Luxor Corniche;paid attraction;Luxor Temple Entry;170;medium;""history;evening"";;Every day;75;Agree the price first if anyone offers a guide or a ride.;high;team estimate;2026-10-08;false",
+123;Luxor;West Bank;paid attraction;Valley of the Kings Entry;385;high;history;;Every day;150;Keep your ticket until you leave.;medium;team estimate;2026-10-13;false,
+124;Luxor;West Bank;paid attraction;Temple of Hatshepsut Entry;245;medium;history;;Every day;90;Agree the price first if anyone offers a guide or a ride.;high;team estimate;2026-10-20;false,
+"125;Luxor;Luxor Corniche;paid attraction;Luxor Museum Entry;175;medium;""history;culture"";;Every day;75;Keep your ticket until you leave.;high;team estimate;2026-10-16;false",
+126;Luxor;West Bank;paid attraction;Medinet Habu Entry;170;medium;history;;Every day;75;Agree the price first if anyone offers a guide or a ride.;low;team estimate;2026-10-07;false,
+127;Luxor;West Bank;paid attraction;Ramesseum Entry;140;medium;history;;Every day;60;Keep your ticket until you leave.;low;team estimate, checked by a second member;2026-10-14;false
+"128;Luxor;Luxor Corniche;paid attraction;Felucca Ride at Sunset;140;medium;""relax;evening"";;Every day;60;Agree the price first if anyone offers a guide or a ride.;medium;team estimate;2026-10-15;true",
+"129;Luxor;West Bank;paid attraction;Hot Air Balloon Viewpoint Tour;735;high;""nature;adventure"";;Every day;120;Keep your ticket until you leave.;high;team estimate;2026-10-20;true",
+130;Aswan;Corniche;stay;Staying with family or friends;0;low;free;;Every day;0;Quiet hours start around 11 pm.;medium;team estimate;2026-10-19;true,
+"131;Aswan;Nubian Village;stay;Nubian Dar Guesthouse;255;low;""culture;relax"";;Every day;0;Ask about check-in time before arriving late.;high;team estimate", checked by a second member;2026-10-16;true
+"132;Aswan;Corniche;stay;Aswan Corniche Budget Hotel;365;medium;""relax;evening"";;Every day;0;Quiet hours start around 11 pm.;high;team estimate;2026-10-11;true",
+"133;Aswan;Souq area;stay;Souq Street Hostel;170;low;""social;culture"";;Every day;0;Ask about check-in time before arriving late.;medium;team estimate;2026-10-09;true",
+"134;Aswan;Elephantine Island;stay;Island Garden Rooms;485;medium;""nature;relax"";;Every day;0;Quiet hours start around 11 pm.;low;team estimate", checked by a second member;2026-10-15;true
+"135;Aswan;Souq area;meal;Souq Falafel Window;23;low;food;""vegan;vegetarian;fasting-friendly"";Every day;15;Check the price before ordering extra items.;high;team estimate;2026-10-09;true",
+"136;Aswan;Nubian Village;meal;Nubian Home Table;130;medium;""food;culture"";vegetarian;Every day;70;Many places take cash only.;medium;team estimate;2026-10-09;true",
+"137;Aswan;Corniche;meal;Corniche Grilled Fish House;225;high;""food;evening"";;Every day;70;Check the price before ordering extra items.;high;team estimate;2026-10-23;true",
+"138;Aswan;Souq area;meal;Hibiscus Drinks Stand;24;low;food;""vegan;vegetarian;fasting-friendly"";Every day;10;Many places take cash only.;medium;team estimate;2026-10-22;true",
+"139;Aswan;Corniche;meal;Aswan Koshary Spot;55;low;food;""vegan;vegetarian;fasting-friendly"";Every day;30;Check the price before ordering extra items.;low;team estimate;2026-10-08;true",
+140;Aswan;Elephantine Island;meal;Elephantine Island Cafe;85;medium;relax;vegetarian;Every day;50;Many places take cash only.;high;team estimate, checked by a second member;2026-10-22;true
+141;Aswan;Souq area;meal;Dates and Sweets Bakery;45;low;food;vegetarian;Every day;20;Check the price before ordering extra items.;low;team estimate;2026-10-15;true,
+"142;Aswan;Corniche;meal;Late Night Tea Garden;25;low;""relax;evening"";vegetarian;Every day;45;Many places take cash only.;high;team estimate", checked by a second member;2026-10-05;true
+143;Aswan;Souq area;transport;Local Microbus Ride;7;low;transport;;Every day;20;Last departures can be early in the evening.;medium;team estimate;2026-10-15;true,
+144;Aswan;Corniche;transport;Ferry to Elephantine Island;9;low;transport;;Every day;15;Agree the fare before you get in.;medium;team estimate;2026-10-20;true,
+145;Aswan;Corniche;transport;Taxi to Philae Boat Dock;125;medium;transport;;Every day;25;Last departures can be early in the evening.;low;team estimate;2026-10-12;true,
+"146;Aswan;Corniche;transport;Felucca Hire (1 hour);115;medium;""relax;evening"";;Every day;60;Agree the fare before you get in.;medium;team estimate", checked by a second member;2026-10-15;true
+"147;Aswan;Corniche;free attraction;Aswan Corniche Walk;0;low;""relax;evening;free"";;Every day;60;Agree the price first if anyone offers a guide or a ride.;low;team estimate;2026-10-19;true",
+"148;Aswan;Souq area;free attraction;Souq Market Walk;0;low;""culture;free"";;Every day;90;""Little shade; carry water."";medium;team estimate;2026-10-16;true",
+"149;Aswan;Nubian Village;free attraction;Nubian Village Street Walk;0;low;""culture;free"";;Every day;75;Agree the price first if anyone offers a guide or a ride.;low;team estimate;2026-10-22;true",
+"150;Aswan;Corniche;free attraction;Sunset View from the Nile Bank;0;low;""relax;evening;free"";;Every day;45;""Little shade; carry water."";high;team estimate", checked by a second member;2026-10-09;true
+"151;Aswan;Elephantine Island;free attraction;Elephantine Island Stroll;0;low;""nature;culture;free"";;Every day;75;Agree the price first if anyone offers a guide or a ride.;low;team estimate;2026-10-19;true",
+"152;Aswan;Philae;paid attraction;Philae Temple Entry;230;medium;history;;Every day;120;""Busiest at midday; go early or late."";medium;team estimate;2026-10-14;false",
+"153;Aswan;Souq area;paid attraction;Unfinished Obelisk Entry;65;low;history;;Every day;45;""Uneven ground and stairs; wear flat shoes."";medium;team estimate", checked by a second member;2026-10-23;false
+"154;Aswan;Corniche;paid attraction;Nubian Museum Entry;120;medium;""history;culture"";;Sat-Thu;75;""Busiest at midday; go early or late."";low;team estimate;2026-10-18;false",
+"155;Aswan;Corniche;paid attraction;Kitchener's Island Botanical Garden;40;low;""nature;relax"";;Every day;90;""Uneven ground and stairs; wear flat shoes."";low;team estimate", checked by a second member;2026-10-12;false
+"156;Aswan;Aswan;paid attraction;Aswan High Dam Visit;95;medium;culture;;Every day;60;""Busiest at midday; go early or late."";medium;team estimate;2026-10-16;false",
+"157;Aswan;Aswan;paid attraction;Abu Simbel Day Trip;900;high;history;;Every day;600;""Uneven ground and stairs; wear flat shoes."";medium;team estimate;2026-10-15;false",
+158;Dahab;Masbat;stay;Staying with family or friends;0;low;free;;Every day;0;Quiet hours start around 11 pm.;medium;team estimate;2026-10-20;true,
+"159;Dahab;Masbat;stay;Masbat Backpackers Hostel;170;low;""social;sea"";;Every day;0;Ask about check-in time before arriving late.;high;team estimate", checked by a second member;2026-10-13;true
+"160;Dahab;Assalah;stay;Assalah Family Guesthouse;380;medium;""sea;relax"";;Every day;0;Quiet hours start around 11 pm.;medium;team estimate;2026-10-13;true",
+"161;Dahab;Lighthouse;stay;Beachfront Camp;200;low;""sea;nature"";;Every day;0;Ask about check-in time before arriving late.;medium;team estimate;2026-10-11;true",
+162;Dahab;Mashraba;stay;Shared Room at Dahab Student House;135;low;relax;;Every day;0;Quiet hours start around 11 pm.;medium;team estimate, checked by a second member;2026-10-21;true
+"163;Dahab;Blue Lagoon road;stay;Lagoon Road Budget Hotel;520;medium;""sea;relax"";;Every day;0;Ask about check-in time before arriving late.;medium;team estimate;2026-10-20;true",
+"164;Dahab;Mashraba;stay;Desert Edge Guesthouse;315;low;""nature;relax"";;Every day;0;Quiet hours start around 11 pm.;high;team estimate;2026-10-21;true",
+"165;Dahab;Lighthouse;stay;Lighthouse Divers Lodge;590;medium;""sea;adventure"";;Every day;0;Ask about check-in time before arriving late.;high;team estimate;2026-10-15;true",
+"166;Dahab;Masbat;meal;Masbat Falafel Window;31;low;food;""vegan;vegetarian;fasting-friendly"";Every day;15;Ask about ingredients if you have an allergy.;high;team estimate", checked by a second member;2026-10-10;true
+"167;Dahab;Assalah;meal;Bedouin Tea and Bread Tent;60;medium;""food;culture"";vegetarian;Every day;40;""Busy at lunch time; expect a short wait."";high;team estimate", checked by a second member;2026-10-21;true
+"168;Dahab;Masbat;meal;Grilled Fish by the Sea;230;high;""food;sea"";;Every day;70;Ask about ingredients if you have an allergy.;medium;team estimate;2026-10-11;true",
+"169;Dahab;Lighthouse;meal;Lighthouse Smoothie Bar;45;low;relax;""vegan;vegetarian;fasting-friendly"";Every day;30;""Busy at lunch time; expect a short wait."";high;team estimate;2026-10-21;true",
+"170;Dahab;Assalah;meal;Assalah Koshary Counter;55;low;food;""vegan;vegetarian;fasting-friendly"";Every day;30;Ask about ingredients if you have an allergy.;high;team estimate;2026-10-13;true",
+"171;Dahab;Mashraba;meal;Home-style Rice and Vegetables Kitchen;105;medium;food;""vegetarian;fasting-friendly"";Every day;50;""Busy at lunch time; expect a short wait."";high;team estimate;2026-10-15;true",
+"172;Dahab;Masbat;meal;Sunset Terrace Cafe;95;medium;""relax;evening"";vegetarian;Every day;60;Ask about ingredients if you have an allergy.;low;team estimate;2026-10-22;true",
+"173;Dahab;Lighthouse;meal;Shrimp and Calamari Shack;190;high;""food;sea"";;Every day;70;""Busy at lunch time; expect a short wait."";high;team estimate;2026-10-09;true",
+174;Dahab;Masbat;meal;Breakfast Plate Corner;50;low;food;vegetarian;Every day;35;Ask about ingredients if you have an allergy.;high;team estimate, checked by a second member;2026-10-23;true
+"175;Dahab;Masbat;meal;Late Night Shawarma Stand;50;low;""food;evening"";seafood-free;Every day;20;""Busy at lunch time; expect a short wait."";medium;team estimate", checked by a second member;2026-10-13;true
+"176;Dahab;Assalah;meal;Dahab Date and Nut Shop Snack;29;low;food;""vegan;vegetarian;fasting-friendly"";Every day;10;Ask about ingredients if you have an allergy.;low;team estimate;2026-10-13;true",
+"177;Dahab;Blue Lagoon road;meal;Picnic Box for the Lagoon;100;medium;""food;sea"";vegetarian;Every day;15;""Busy at lunch time; expect a short wait."";medium;team estimate;2026-10-10;true",
+"178;Dahab;Masbat;transport;Local Pickup Ride Within Dahab;15;low;transport;;Every day;15;""Vehicles fill up at peak hours; leave extra time."";medium;team estimate", checked by a second member;2026-10-09;true
+"179;Dahab;Masbat;transport;Taxi Masbat to Blue Lagoon;130;medium;""transport;sea"";;Every day;25;Keep small notes for change.;medium;team estimate;2026-10-22;true",
+"180;Dahab;Masbat;transport;Bike Rental (full day);50;medium;transport;;Every day;480;""Vehicles fill up at peak hours; leave extra time."";high;team estimate;2026-10-22;true",
+181;Dahab;Masbat;transport;Bus Cairo to Dahab;375;high;transport;;Every day;540;Keep small notes for change.;high;team estimate, checked by a second member;2026-10-09;true
+"182;Dahab;Assalah;transport;Shared Van to Sharm el-Sheikh;170;high;transport;;Every day;90;""Vehicles fill up at peak hours; leave extra time."";high;team estimate", checked by a second member;2026-10-06;true
+"183;Dahab;Mashraba;transport;Camel Ride Transfer (short);115;medium;""culture;adventure"";;Every day;45;Keep small notes for change.;high;team estimate;2026-10-23;true",
+"184;Dahab;Masbat;transport;Airport Transfer from Sharm;385;high;transport;;Every day;100;""Vehicles fill up at peak hours; leave extra time."";medium;team estimate", checked by a second member;2026-10-13;true
+"185;Dahab;Masbat;free attraction;Masbat Promenade Walk;0;low;""sea;relax;evening;free"";;Every day;60;""Little shade; carry water."";high;team estimate;2026-10-21;true",
+"186;Dahab;Blue Lagoon road;free attraction;Lagoon Public Beach Day;0;low;""sea;relax;free"";;Every day;180;Agree the price first if anyone offers a guide or a ride.;high;team estimate", checked by a second member;2026-10-18;true
+"187;Dahab;Lighthouse;free attraction;Sunrise on the Lighthouse Beach;0;low;""sea;nature;free"";;Every day;60;""Little shade; carry water."";medium;team estimate;2026-10-10;true",
+"188;Dahab;Assalah;free attraction;Assalah Village Walk;0;low;""culture;free"";;Every day;75;Agree the price first if anyone offers a guide or a ride.;high;team estimate;2026-10-20;true",
+"189;Dahab;Mashraba;free attraction;Sunset Hill Viewpoint;0;low;""nature;evening;free"";;Every day;60;""Little shade; carry water."";high;team estimate;2026-10-18;true",
+"190;Dahab;Lighthouse;free attraction;Shore Snorkelling (own gear);0;low;""sea;adventure;free"";;Every day;90;Agree the price first if anyone offers a guide or a ride.;medium;team estimate;2026-10-16;true",
+"191;Dahab;Masbat;free attraction;Evening Music on the Promenade;0;low;""evening;culture;free"";;Every day;90;""Little shade; carry water."";medium;team estimate", checked by a second member;2026-10-19;true
+"192;Dahab;Blue Lagoon road;paid attraction;Blue Hole Site Entry;175;medium;""sea;adventure"";;Every day;120;""Busiest at midday; go early or late."";high;team estimate", checked by a second member;2026-10-11;false
+"193;Dahab;Masbat;paid attraction;Snorkel Gear Rental (day);65;low;""sea;adventure"";;Every day;240;""Uneven ground and stairs; wear flat shoes."";medium;team estimate;2026-10-10;true",
+"194;Dahab;Lighthouse;paid attraction;Eel Garden Snorkel Trip;265;high;""sea;adventure"";;Every day;150;""Busiest at midday; go early or late."";high;team estimate;2026-10-11;true",
+"195;Dahab;Masbat;paid attraction;Three Pools Snorkel Boat;440;high;sea;;Every day;180;""Uneven ground and stairs; wear flat shoes."";low;team estimate", checked by a second member;2026-10-05;true
+"196;Dahab;Masbat;paid attraction;Colored Canyon Jeep Trip;675;high;""nature;adventure"";;Every day;360;""Busiest at midday; go early or late."";low;team estimate;2026-10-13;true",
+"197;Dahab;Ras Abu Gallum;paid attraction;Ras Abu Gallum Protectorate Entry;165;medium;""nature;adventure"";;Every day;300;""Uneven ground and stairs; wear flat shoes."";medium;team estimate;2026-10-20;false",
+"198;Dahab;Lighthouse;paid attraction;Introductory Dive Session;1030;high;""sea;adventure"";;Every day;180;""Busiest at midday; go early or late."";high;team estimate;2026-10-16;true",
+"199;Dahab;Assalah;paid attraction;Yoga Class by the Sea;175;medium;""relax;sea"";;Every day;75;""Uneven ground and stairs; wear flat shoes."";low;team estimate;2026-10-09;true",
+"200;Dahab;Mashraba;paid attraction;Desert Stargazing Evening;320;high;""nature;evening"";;Every day;180;""Busiest at midday; go early or late."";low;team estimate;2026-10-23;true",
