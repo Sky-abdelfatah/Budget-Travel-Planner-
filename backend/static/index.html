@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trip Draft</title>
+<style>
+:root{
+  --ink:#10222b; --ink2:#41545e; --paper:#f4f7f8; --card:#ffffff; --line:#c9d6dc;
+  --nile:#0b4f5c; --nile-d:#083843; --reed:#b7791f; --reed-bg:#fff6e0; --ok:#1d6b3f; --ok-bg:#e6f4ea; --bad:#9b2c2c;
+  --r:12px; font-size:18px;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:"Segoe UI",Tahoma,system-ui,-apple-system,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.5}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid #b45309;outline-offset:2px}
+.app{display:grid;grid-template-columns:minmax(320px,5fr) 7fr;height:100dvh}
+.panel{display:flex;flex-direction:column;min-height:0;min-width:0}
+.chat{background:var(--card);border-inline-end:1px solid var(--line)}
+header.top{background:var(--nile-d);color:#fff;padding:.8rem 1.1rem;display:flex;align-items:center;gap:.7rem}
+.logo{width:2.1rem;height:2.1rem;border-radius:9px;background:#fff;color:var(--nile-d);display:grid;place-items:center;font-weight:800;font-size:1rem}
+header.top h1{font-size:1.15rem;margin:0;line-height:1.1}
+header.top p{margin:0;font-size:.8rem;opacity:.9}
+.tabs{display:none}
+#log{flex:1;overflow:auto;padding:1rem;display:flex;flex-direction:column;gap:.7rem}
+.m{max-width:92%;padding:.6rem .85rem;border-radius:var(--r);white-space:pre-wrap;overflow-wrap:anywhere}
+.m .who{display:block;font-size:.75rem;font-weight:700;color:var(--ink2);margin-bottom:.1rem}
+.bot{background:#e8f1f3;border:1px solid #c3d8de;align-self:flex-start;border-end-start-radius:3px}
+.you{background:var(--nile);color:#fff;align-self:flex-end;border-end-end-radius:3px}
+.you .who{color:#cfe3e8}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem;padding:.2rem 1rem .6rem}
+.chip{border:2px solid var(--nile);background:#fff;color:var(--nile-d);padding:.4rem .85rem;border-radius:999px;font-weight:600}
+.chip:hover{background:var(--nile);color:#fff}
+.chip.alt{border-style:dashed}
+form.send{display:flex;gap:.5rem;padding:.7rem 1rem 1rem;border-top:1px solid var(--line)}
+form.send input{flex:1;min-width:0;font:inherit;padding:.6rem .8rem;border:2px solid var(--ink2);border-radius:var(--r);background:#fff;color:var(--ink)}
+.btn{border:2px solid var(--nile);background:var(--nile);color:#fff;padding:.55rem 1.1rem;border-radius:var(--r);font-weight:700}
+.btn:hover{background:var(--nile-d)}
+.btn.ghost{background:#fff;color:var(--nile-d)}
+.btn.ghost:hover{background:#e8f1f3}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.plan{background:var(--paper)}
+.plan .bar{padding:1rem 1.2rem .8rem;background:var(--card);border-bottom:1px solid var(--line)}
+.row{display:flex;align-items:center;justify-content:space-between;gap:.6rem;flex-wrap:wrap}
+.status{display:inline-flex;align-items:center;gap:.4rem;font-weight:800;padding:.25rem .7rem;border-radius:6px;border:2px solid}
+.status.draft{color:#7a4d08;background:var(--reed-bg);border-color:var(--reed)}
+.status.conf{color:var(--ok);background:var(--ok-bg);border-color:var(--ok)}
+.status.none{color:var(--ink2);border-color:var(--line);background:#fff}
+.nums{margin-top:.7rem;display:flex;gap:1.4rem;flex-wrap:wrap;align-items:baseline}
+.nums b{font-size:1.7rem;letter-spacing:-.02em}
+.nums span{color:var(--ink2);font-size:.85rem}
+.meter{height:12px;border-radius:99px;background:#dbe5e9;margin-top:.5rem;overflow:hidden;border:1px solid var(--line)}
+.meter{display:flex}
+.meter i{display:block;height:100%;background:var(--nile);transition:width .25s}
+.meter i.pr{background:repeating-linear-gradient(45deg,#e3b866,#e3b866 6px,#f3d9a0 6px,#f3d9a0 12px)}
+.legend{display:flex;gap:1rem;flex-wrap:wrap;font-size:.78rem;color:var(--ink2);margin-top:.35rem}
+.legend i{display:inline-block;width:.8rem;height:.8rem;border-radius:3px;vertical-align:-.1rem;margin-inline-end:.3rem;background:var(--nile)}
+.legend i.pr{background:repeating-linear-gradient(45deg,#e3b866,#e3b866 3px,#f3d9a0 3px,#f3d9a0 6px)}
+.meter.over i{background:var(--bad)}
+.tools{display:flex;gap:.5rem;margin-top:.8rem;flex-wrap:wrap}
+#plan{flex:1;overflow:auto;padding:1rem 1.2rem 1.5rem}
+.day{margin:0 0 1.1rem}
+.day h2{font-size:1rem;margin:0 0 .45rem;color:var(--nile-d)}
+.item{background:var(--card);border:2px dashed var(--reed);border-radius:var(--r);padding:.7rem .85rem;margin-bottom:.55rem}
+.item.accepted{border:2px solid var(--ok);background:#fbfefc}
+.item h3{font-size:1.02rem;margin:0}
+.item .price{font-weight:800;white-space:nowrap}
+.pill{font-size:.78rem;font-weight:800;padding:.1rem .55rem;border-radius:6px;display:inline-block}
+.pill.p{background:var(--reed-bg);color:#7a4d08}
+.pill.a{background:var(--ok-bg);color:var(--ok)}
+.meta{font-size:.82rem;color:var(--ink2);margin:.25rem 0}
+.acts{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.4rem}
+.acts button{border:2px solid var(--nile);background:#fff;color:var(--nile-d);padding:.25rem .8rem;border-radius:8px;font-weight:700;font-size:.9rem}
+.acts button:hover{background:var(--nile);color:#fff}
+.empty{border:2px dashed var(--line);border-radius:var(--r);padding:1.4rem;color:var(--ink2);background:#fff}
+.empty b{color:var(--ink);display:block;font-size:1.05rem;margin-bottom:.3rem}
+.foot{font-size:.8rem;color:var(--ink2);margin-top:.5rem}
+@media (max-width:860px){
+  .app{grid-template-columns:1fr;grid-template-rows:1fr;height:calc(100dvh - 3rem)}
+  .tabs{display:flex;position:fixed;bottom:0;left:0;right:0;height:3rem;background:var(--card);border-top:1px solid var(--line)}
+  .tabs button{flex:1;border:0;background:none;font-weight:700;color:var(--ink2);border-top:4px solid transparent}
+  .tabs button[aria-pressed=true]{color:var(--nile-d);border-top-color:var(--nile)}
+  .panel{display:none}.panel.show{display:flex}
+}
+@media (max-height:700px){
+  .panel{overflow-y:auto}
+  #log{flex:1 0 12rem}
+  .plan #plan{flex:none;overflow:visible}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<main class="app">
+  <section class="panel chat show" id="chatPanel" aria-label="Chat">
+    <header class="top"><div class="logo" aria-hidden="true">TD</div><div><h1>Trip Draft</h1><p>AI trip planner for Egypt. Prices are fictional estimates.</p></div></header>
+    <div id="log" tabindex="0" role="log" aria-live="polite" aria-label="Conversation"></div>
+    <div class="chips" id="chips"></div>
+    <form class="send" id="form"><label for="t" style="position:absolute;left:-9999px">Your message</label>
+      <input id="t" autocomplete="off" placeholder="e.g. 3 days in Alexandria 1800 EGP food and sea" dir="auto">
+      <button class="btn" type="submit">Send</button></form>
+  </section>
+  <section class="panel plan" id="planPanel" aria-label="Your plan">
+    <div class="bar">
+      <div class="row"><strong>Your plan</strong><span id="status" class="status none">No plan yet</span></div>
+      <div class="nums"><div><b id="tot">0</b> <span>EGP accepted</span></div><div><b id="prop">0</b> <span>EGP proposed (not accepted yet)</span></div><div><b id="left">-</b> <span>EGP left</span></div><div><span id="of">Budget not set</span></div></div>
+      <div class="meter" id="meter" role="img" aria-label="Budget used"><i style="width:0"></i><i class="pr" style="width:0"></i></div>
+      <div class="legend"><span><i></i>Accepted</span><span><i class="pr"></i>Proposed</span></div>
+      <div class="tools"><button class="btn ghost" id="undo" disabled>Undo</button><button class="btn ghost" id="redo" disabled>Redo</button><button class="btn" id="fin" disabled>Finish</button></div>
+    </div>
+    <div id="plan"></div>
+  </section>
+</main>
+<nav class="tabs" id="tabs" aria-label="Switch view"><button aria-pressed="true" data-p="chatPanel">Chat</button><button aria-pressed="false" data-p="planPanel" id="planTab">Plan</button></nav>
+<script>
+let sid=null,pend=null;
+const $=id=>document.getElementById(id);
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+function say(t,who){const m=el('div','m '+who);m.appendChild(el('span','who',who==='bot'?'Trip Draft (AI)':'You'));const s=el('span',null,t);s.dir='auto';m.appendChild(s);$('log').appendChild(m);$('log').scrollTop=1e9}
+function chip(t,f,alt){const b=el('button','chip'+(alt?' alt':''),t);b.type='button';b.onclick=f;$('chips').appendChild(b)}
+const CMD={'Accept all':'accept_all','Undo':'undo','Redo':'redo','Finish':'finalize','Apply changes':'apply_pending','Keep old plan':'keep_old'};
+function btn(b){CMD[b]?act(CMD[b]):chat(b)}
+async function post(u,b){try{const r=await fetch(u,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(b)});if(!r.ok)throw 0;return await r.json()}catch(e){return{reply:'I could not reach the server. Your plan on screen is unchanged. Please try again.',buttons:['Plan a trip']}}}
+function render(p){
+  const st=$('status');
+  if(!p||!p.items.length){st.className='status none';st.textContent=p?p.label+' (empty)':'No plan yet';
+    $('plan').replaceChildren(Object.assign(el('div','empty'),{}));
+    const e=$('plan').firstChild;e.appendChild(el('b',null,'Nothing here yet'));e.appendChild(el('span',null,'Tell the chatbot a city, number of days, budget in EGP and what you like. Every suggestion will appear here as Proposed. Nothing is added until you accept it.'));
+    $('undo').disabled=!(p&&p.can_undo);$('redo').disabled=!(p&&p.can_redo);$('fin').disabled=true;$('tot').textContent=0;$('prop').textContent=0;$('left').textContent='-';$('meter').firstChild.style.width='0';$('meter').children[1].style.width='0';$('planTab').textContent='Plan';return}
+  st.className='status '+(p.label==='Confirmed plan'?'conf':'draft');st.textContent=(p.label==='Confirmed plan'?'✔ ':'✎ ')+p.label;
+  $('tot').textContent=p.accepted_egp;$('prop').textContent=p.proposed_egp;$('left').textContent=p.left_egp;$('of').textContent='of '+p.budget_egp+' EGP budget';
+  const mt=$('meter');mt.className='meter'+(p.left_egp<0?' over':'');const ap=Math.min(100,Math.round(p.accepted_egp/p.budget_egp*100));mt.firstChild.style.width=ap+'%';mt.children[1].style.width=Math.min(100-ap,Math.round(p.proposed_egp/p.budget_egp*100))+'%';mt.setAttribute('aria-label','Budget: '+p.accepted_egp+' accepted, '+p.proposed_egp+' proposed, of '+p.budget_egp+' EGP');
+  $('undo').disabled=!p.can_undo;$('redo').disabled=!p.can_redo;$('fin').disabled=false;$('planTab').textContent='Plan ('+p.items.length+')';
+  const root=document.createDocumentFragment();const days={};p.items.forEach(i=>(days[i.day]=days[i.day]||[]).push(i));
+  Object.keys(days).sort((a,b)=>a-b).forEach(d=>{const sec=el('section','day');sec.appendChild(el('h2',null,'Day '+d));
+    days[d].forEach(i=>{const c=el('article','item'+(i.status==='accepted'?' accepted':''));
+      const r=el('div','row');r.appendChild(el('h3',null,i.name));r.appendChild(el('span','price',(i.qty>1?i.qty+' nights × '+i.price_egp+' = ':'')+i.line_total+' EGP'));c.appendChild(r);
+      const pl=el('span','pill '+(i.status==='accepted'?'a':'p'),i.status==='accepted'?'✔ Accepted (locked)':'◌ Proposed');
+      const m1=el('div','meta');m1.appendChild(pl);m1.append(' '+i.role+' · '+i.area);c.appendChild(m1);
+      c.appendChild(el('div','meta',i.why+' · Source: '+i.source_tag+', verified '+i.last_verified+', confidence '+i.confidence));
+      const a=el('div','acts');[['Accept','accept'],['Remove','remove'],['Swap','swap_options']].forEach(([n,k])=>{const b=el('button',null,n);b.type='button';b.setAttribute('aria-label',n+': '+i.name+', '+i.line_total+' EGP');if(k==='accept'&&i.status==='accepted')b.disabled=true;b.onclick=()=>{pend=i.item_id;act(k,{item_id:i.item_id})};a.appendChild(b)});c.appendChild(a);sec.appendChild(c)});root.appendChild(sec)});
+  root.appendChild(el('p','foot',p.note));$('plan').replaceChildren(root)}
+function show(r){sid=r.session_id||sid;say(r.reply,'bot');$('chips').innerHTML='';
+  (r.alternatives||[]).forEach(a=>chip(a.name+', '+a.price_egp+' EGP ('+(a.price_change_egp>=0?'+':'')+a.price_change_egp+')',()=>act('swap_apply',{item_id:pend,new_item_id:a.item_id}),true));
+  (r.buttons||[]).forEach(b=>chip(b,()=>btn(b)));
+  if(r.plan!==undefined&&r.plan!==null)render(r.plan);
+  else if(!$('plan').children.length)render(null)}
+async function chat(m){say(m,'you');show(await post('/chat',{message:m,session_id:sid}))}
+async function act(a,e={}){show(await post('/action',Object.assign({session_id:sid,action:a},e)))}
+$('form').onsubmit=ev=>{ev.preventDefault();const v=$('t').value.trim();if(v){$('t').value='';chat(v)}};
+$('undo').onclick=()=>act('undo');$('redo').onclick=()=>act('redo');$('fin').onclick=()=>act('finalize');
+document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#tabs button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  ['chatPanel','planPanel'].forEach(id=>$(id).classList.toggle('show',id===b.dataset.p))});
+render(null);chat('hello');
+</script>
+</body>
+</html>
