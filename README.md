@@ -1,4 +1,4 @@
-# Trip Draft backend (Weeks 6-7)
+# Trip Draft
 
 Team: **Just How It Works**
 
