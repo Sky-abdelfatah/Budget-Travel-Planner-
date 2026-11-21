@@ -1,7 +1,6 @@
 # Trip Draft
 
 **Team: Just How It Works**
-Tasneem Hussien, Rawaa Ehab, Raghad Gamal, Sama Essam, Shahd Soliman
 
 Trip Draft is a budget travel planner chatbot for Egyptian university students. The user tells the chatbot a city, number of days, budget in EGP and interests, and gets a draft plan built from a small synthetic dataset. All prices are fictional estimates.
 
